@@ -218,13 +218,13 @@ Once connected to GitHub, Vercel will auto-deploy on every push.
 
 ---
 
-## ✔️ Assumptions
+## ✔️ Project Expectations & Constraints
 
 * Users authenticate via email/password
 * Tasks are private per user account
 * Browser supports localStorage
 * Vercel is used as the deployment target
-* Password reset will be implemented later
+  
 
 ---
 
