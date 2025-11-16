@@ -9,17 +9,11 @@ Authenticated users can create, organize, filter, and manage tasks with prioriti
 
 ## 📸 Screenshots
 
-| Login Page                      | Dashboard (Light Mode)                              |
-| ------------------------------- | --------------------------------------------------- |
-| ![Login](screenshots/login.png) | ![Dashboard Light](screenshots/dashboard-light.png) |
+<img width="1365" height="651" alt="image" src="https://github.com/user-attachments/assets/f9d3a99c-cc1a-4d3f-b673-2e19af7ad2d8" />
+<img width="683" height="528" alt="image" src="https://github.com/user-attachments/assets/3c993571-438c-431a-b4a0-3ec85d06b3eb" />
+<img width="694" height="539" alt="image" src="https://github.com/user-attachments/assets/4aa77bb1-67c0-4c65-a68d-3244fd807a3c" />
 
-| Dashboard (Dark Mode)                             |
-| ------------------------------------------------- |
-| ![Dashboard Dark](screenshots/dashboard-dark.png) |
-
-----------|------------|
-| ![Dashboard](screenshots/dashboard.png) | ![Login](screenshots/login.png) |
-
+ 
 ---
 
 ## ✨ Features
