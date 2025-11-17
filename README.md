@@ -1,4 +1,4 @@
-# 🚀 Task Manager — SvelteKit + Supabase
+#  Task Manager — SvelteKit + Supabase
 
 A modern **task management web application** built with **SvelteKit**, **Supabase**, **TailwindCSS**, and **shadcn-svelte**.
 Authenticated users can create, organize, filter, and manage tasks with priorities, due dates, and statuses — all synced to their account.
@@ -24,7 +24,7 @@ Authenticated users can create, organize, filter, and manage tasks with prioriti
 * “Remember me” cookie
 * Redirect guards for authenticated-only pages
 * Logout endpoint (`/logout`)
-* Password reset UI (not yet wired to Supabase)
+* Password reset UI (wired to Supabase)
 
 ### 📝 Task Management
 
@@ -40,7 +40,7 @@ Authenticated users can create, organize, filter, and manage tasks with prioriti
 * Quick status toggles (complete/in-progress/pending)
 * Toast alerts for CRUD feedback
 
-### 🔎 Filtering & Sorting
+###  Filtering & Sorting
 
 * Search bar
 * Filter by status
@@ -91,6 +91,7 @@ src/
 │   ├── (auth)/
 │   │     ├── login/+page.svelte
 │   │     ├── register/+page.svelte
+          └── new-password/+page.svelte # new password
 │   │     └── reset/+page.svelte     # Password reset UI placeholder
 │   │
 │   ├── (app)/
@@ -145,11 +146,11 @@ npm run dev -- --open
 ```
 
 Your application will be available at:
-👉 **[http://localhost:5173](http://localhost:5173)**
+ **[http://localhost:5173](http://localhost:5173)**
 
 ---
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 | Variable                   | Required | Description                     |
 | -------------------------- | -------- | ------------------------------- |
@@ -158,7 +159,7 @@ Your application will be available at:
 
 ---
 
-## 🌍 Deployment (Vercel)
+##  Deployment (Vercel)
 
 This project is configured using **`@sveltejs/adapter-vercel`**.
 
@@ -177,7 +178,7 @@ Once connected to GitHub, Vercel will auto-deploy on every push.
 
 ---
 
-## 🧠 Design Decisions & Trade-Offs
+##  Design Decisions & Trade-Offs
 
 ### Supabase (Auth + Storage)
 
@@ -218,19 +219,19 @@ Once connected to GitHub, Vercel will auto-deploy on every push.
 
 ---
 
-## ✔️ Project Expectations & Constraints
+##  Project Expectations & Constraints
 
 * Users authenticate via email/password
 * Tasks are private per user account
 * Browser supports localStorage
+* Full password reset integration using Supabase
 * Vercel is used as the deployment target
   
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
-* Full password reset integration
 * Drag-and-drop sortable tasks
 * Task categories/tags
 * User profile settings
